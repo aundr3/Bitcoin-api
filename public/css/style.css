@@ -1,0 +1,47 @@
+*{box-sizing: border-box;}
+
+body {
+    background-color: #000;
+}
+
+h1 {
+    color: #F0E68C;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #F0E68C;
+}
+
+section {
+    margin-top: 50px;
+}
+
+.home-text {
+    color: white;
+}
+
+.home-text2 {
+    color: #F0E68C;
+}
+
+.h2-bitcoin {
+    color: #F0E68C;
+}
+
+.spin-bitcoin {
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.bitcoin-p {
+    color: white;
+}
+
+footer {
+    color: white;
+}

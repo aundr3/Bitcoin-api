@@ -1,0 +1,18 @@
+<%- include('../partials/header'); %> 
+
+<section class="section bitcoin-section">
+    <% data.forEach(item=> { %>
+        <div class="text-center">
+            <h2 class="h2-bitcoin"><%= item.Date %><img src="/media/spinning_bitcoin.gif" class="img-fluid spin-bitcoin" alt="bitcoin-spinning"></h2>
+        </div>
+        <div class="container">
+            <p class="bitcoin-p text-uppercase">Price: $<%= item.Price %></p>
+            <p class="bitcoin-p text-uppercase">Open: $<%= item.Open %></p>
+            <p class="bitcoin-p text-uppercase">High: $<%= item.High %></p>
+            <p class="bitcoin-p text-uppercase">Change Percent From Last Month: <%= item.ChangePercentFromLastMonth %>%</p>
+            <p class="bitcoin-p text-uppercase">Volume: <%= item.Volume %></p>
+        </div>
+    <% }) %>
+</section>
+
+<%- include('../partials/footer'); %> 
